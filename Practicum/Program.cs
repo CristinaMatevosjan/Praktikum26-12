@@ -22,3 +22,19 @@ int[] Numbers = new int[lengthM];
 FillArray (Numbers, 1, 20);
 PrintArray (Numbers);
  Console.WriteLine();
+
+ int[] NumbersGreaterThan8(int[] collection)
+{
+    int length=collection.Length;
+    int[] result=new int[length];
+    for (int i = 0; i < length; i++)
+    {
+        if(collection[i]>8)
+        {
+            result[i]=collection[i];
+        }
+        
+    }
+    return result;
+}
+
