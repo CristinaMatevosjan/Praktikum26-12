@@ -16,3 +16,9 @@ void PrintArray(int[] array)
     }
 }
 
+Console.Write("введите M: ");
+int lengthM = int.Parse(Console.ReadLine());
+int[] Numbers = new int[lengthM];
+FillArray (Numbers, 1, 20);
+PrintArray (Numbers);
+ Console.WriteLine();
