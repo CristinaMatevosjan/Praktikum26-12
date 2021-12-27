@@ -38,3 +38,15 @@ PrintArray (Numbers);
     return result;
 }
 
+int[] res=NumbersGreaterThan8(Numbers);
+
+void PrintResult(int[] arr)
+{
+    int size=arr.Length;
+    for (int i = 0; i <size ; i++)
+    {
+        if(arr[i]!=0) Console.Write($"{arr[i]} ");
+    }
+}
+
+PrintResult(res);
